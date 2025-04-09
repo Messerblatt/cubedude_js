@@ -143,3 +143,37 @@ audio {
 a {
   color: red;
 }
+
+.commit_table {
+  position: fixed;
+  top: 50vh;
+  transform: translate(0%, -50%);
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  color: #111;
+  
+}
+
+td.status-indicator {
+  position: relative;
+
+  padding-left: 2rem;
+  font-weight: bold;
+  color: #2ecc71; /* green text (optional) */
+}
+
+td.status-indicator::before {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background-color: #2ecc71; /* green light */
+  border-radius: 50%;
+  box-shadow: 0 0 6px 2px #2ecc71;
+}
+
+
