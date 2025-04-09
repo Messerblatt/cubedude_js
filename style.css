@@ -7,22 +7,25 @@
   font-display: swap;
 }
 
+
 @font-face {
-  font-family: 'Stockingcute';
-  src: url('fonts/StockingcuteRegular.woff2') format('woff2'),
-      url('fonts/StockingcuteRegular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MAVERICK';
+  src: url('fonts/MAVERICKMEDIUM.woff2') format('woff2'),
+      url('fonts/MAVERICKMEDIUM.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 body {
   font-family: "Source Code Pro", sans-serif;
+  background-color: yellow;
+  color: #ddd;
 }
 
 
 header {
-  color: white;
+  color: yellow;
   font-family: "Divine", sans-serif;
   margin-left: 100px;
   height: 100px;
@@ -31,7 +34,7 @@ header {
 }
 
 h2 {
-  font-family: "Stockingcute";
+  font-family: "MAVERICK";
   text-align: center;
   font-size: 1.2rem;
 }
@@ -53,9 +56,9 @@ h2 {
   margin: 20px auto;
   width: 300px;
   border-radius: 20px;
-  color: white;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  color: yellow;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
 
 }
 
@@ -86,11 +89,11 @@ audio {
   position: fixed;
   bottom: 200px;
   right: 200px;
-  background-color: white;
-  color: red;
+  background-color: transparent;
+  color: #333;
   width: 800px;
 }
-
+ 
 .metadata tr td {
   min-width: 300px;
 }
@@ -100,7 +103,7 @@ audio {
   z-index: -1;
   top: -10px;
   left: -10px;
-  background-color: red;
+  background-color: #333;
   min-height: 102vh;
   width: 50vw;
 }
@@ -118,8 +121,9 @@ audio {
   filter: opacity(0.85);
   font-size: 0.7rem;
   border-radius: 10px;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  color: #333;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
 .mouse_controls * {
@@ -138,8 +142,9 @@ audio {
   bottom: 50px;
   right: 50px;
   font-size: 0.8rem;
+  color: #333;
 }
 
 a {
-  color: red;
+  color: #333;
 }

@@ -37,7 +37,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     overflow: hidden;
     text-align: right;
     bottom: auto;
-    background-color: black;
+    background-color: white;
     border-radius: 0px;
     /* The duration is also specified in MediaControlElements.cpp and LayoutTests/media/media-controls.js */
     transition: opacity 0.3s;
@@ -69,7 +69,6 @@ audio::-webkit-media-controls-mute-button, video::-webkit-media-controls-mute-bu
     margin: 0 6px 0 0;
     padding: 0;
     background-color: initial;
-    filter: invert();
 }
 audio::-webkit-media-controls-overlay-enclosure {
 }
@@ -99,7 +98,7 @@ video::-webkit-media-controls-overlay-play-button {
     box-sizing: border-box;
     width: 80px;
     padding: 0;
-    filter: invert(100%);
+    
 }
 audio::-webkit-media-controls-play-button, video::-webkit-media-controls-play-button {
     -webkit-appearance: media-play-button;
@@ -112,7 +111,7 @@ audio::-webkit-media-controls-play-button, video::-webkit-media-controls-play-bu
     margin-left: 9px;
     margin-right: 9px;
     padding: 0;
-    filter: invert(100%);
+    
 }
 audio::-webkit-media-controls-timeline-container, video::-webkit-media-controls-timeline-container {
     -webkit-appearance: media-controls-background;
@@ -124,7 +123,7 @@ audio::-webkit-media-controls-timeline-container, video::-webkit-media-controls-
     -webkit-user-select: none;
     height: 16px;
     min-width: 0;
-    filter: invert(100%);
+    
 }
 audio::-webkit-media-controls-current-time-display, video::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display, video::-webkit-media-controls-time-remaining-display {
@@ -148,7 +147,6 @@ audio::-webkit-media-controls-time-remaining-display, video::-webkit-media-contr
     text-indent: 0;
     text-shadow: none;
     text-decoration: none;
-    color: white;
 }
 audio::-webkit-media-controls-timeline, video::-webkit-media-controls-timeline {
     -webkit-appearance: media-slider;
@@ -159,7 +157,7 @@ audio::-webkit-media-controls-timeline, video::-webkit-media-controls-timeline {
     background-color: transparent;
     min-width: 25px;
     border: initial;
-    filter: invert(100%);
+    
 }
 audio::-webkit-media-controls-volume-slider, video::-webkit-media-controls-volume-slider {
     -webkit-appearance: media-volume-slider;
@@ -174,7 +172,7 @@ audio::-webkit-media-controls-volume-slider, video::-webkit-media-controls-volum
     background-color: transparent;
     min-width: 15px;
     border: initial;
-    filter: invert(100%);
+    
 }
 /* FIXME these shouldn't use special pseudoShadowIds, but nicer rules.
    https://code.google.com/p/chromium/issues/detail?id=112508
@@ -210,7 +208,7 @@ audio::-webkit-media-controls-fullscreen-button, video::-webkit-media-controls-f
     margin-right: 9px;
     padding: 0;
     background-color: initial;
-    filter: invert(100%);
+    
 }
 audio::-webkit-media-controls-toggle-closed-captions-button {
     display: none;
@@ -226,7 +224,7 @@ video::-webkit-media-controls-toggle-closed-captions-button {
     margin-right: 9px;
     padding: 0;
     background-color: initial;
-    filter: invert(100%);
+    
 }
 audio::-webkit-media-controls-fullscreen-volume-slider, video::-webkit-media-controls-fullscreen-volume-slider {
     display: none;
