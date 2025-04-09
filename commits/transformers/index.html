@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubeDude</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bytesized&family=Comfortaa:wght@300..700&family=Dancing+Script:wght@400..700&family=Pixelify+Sans:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="audio_style.css">
+    <script src="js/jquery.js"></script>
+    <script src="audio_player.js"></script>
+    <script src="3d_viewer.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>CubeDude</h1>
+        <h2 id="commit_message">Transformers</h2>
+    </header>
+    
+    <div id="leftcard"></div>
+
+    <audio controls autoplay src="" id="active_file"></audio>
+        <source src="-.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="mouse_controls">
+        <h3>HOLD AND DRAG</h3>
+        <div class="flex_center">
+            <div>
+            <img class="icon" src="../../imgs/leftmouse.png" alt="" srcset="">
+            <p>Camera</p>
+            </div>
+            <div>
+                <img class="icon" src="../../imgs/rightmouse.png" alt="" srcset="">
+                <p>Viewport</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="about">
+        Made by <a target="_blank" href="https://messerblatt.com">Markus Meyer</a>
+    </div>
+
+    <div class="metadata"></div>
+
+    <div class="commit_table">
+        <h3>available commits</h3>
+        <table>
+            <thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="status-indicator"><a href="/commits/evil/index.html">/commits/evil/</a></td>
+                    <td>82efcd8</td>
+                </tr>
+                <tr>
+                    <td class="status-indicator"><a href="/commits/jimihendrix/index.html">/commmits/jimihendrix/</a></td>
+                    <td>5e7e6ee</td>
+                </tr>
+                <tr>
+                    <td class="status-indicator"><a href="/commits/transformers/index.html">/commmits/transformers/</a></td>
+                    <td>d7c4d5a</td>
+                </tr>
+                <tr>
+                    <td class="status-indicator"><a href="/commits/ringtones/index.html">/commmits/ringtones/</a></td>
+                    <td>51f0840</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+      
+      <script>construct_3D("3d/object.gltf")</script>
+</body>
+</html>

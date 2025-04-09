@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Divine';
+  src: url('fonts/DivineRegular.woff2') format('woff2'),
+      url('fonts/DivineRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'MAVERICK';
+  src: url('fonts/MAVERICKMEDIUM.woff2') format('woff2'),
+      url('fonts/MAVERICKMEDIUM.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Source Code Pro", sans-serif;
+  background-color: yellow;
+  color: #ddd;
+}
+
+
+header {
+  color: yellow;
+  font-family: "Divine", sans-serif;
+  margin-left: 100px;
+  height: 100px;
+  font-size: 2.5rem;
+  position: fixed;
+}
+
+h2 {
+  font-family: "MAVERICK";
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+.file_list {
+  /* Foreground, Background */
+  scrollbar-color: red black;
+}
+
+.file_list::-webkit-scrollbar-track { /* Background */
+  background: #333;
+}
+.file_list {
+  font-size: 0.8rem;
+  position: fixed;
+  top: 350px;
+  left: 250px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 20px;
+  color: yellow;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+
+}
+
+.list_item {
+    padding: 5px;
+    padding-left: 20px;
+    border-bottom: black;
+    cursor: crosshair;
+}
+
+.list_item:hover {
+    background-color: white;
+    color: #333;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+#active_file {
+  position: fixed;
+  bottom: 5vh;
+  width: 100vw;
+}
+
+.metadata {
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 200px;
+  right: 200px;
+  background-color: transparent;
+  color: #333;
+  width: 800px;
+}
+ 
+.metadata tr td {
+  min-width: 300px;
+}
+
+#leftcard {
+  position: fixed;
+  z-index: -1;
+  top: -10px;
+  left: -10px;
+  background-color: #333;
+  min-height: 102vh;
+  width: 50vw;
+}
+
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+}
+.mouse_controls {
+  text-align: center;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  filter: opacity(0.85);
+  font-size: 0.7rem;
+  border-radius: 10px;
+  color: #333;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.mouse_controls * {
+  margin: 0px 20px 0px 20px;
+}
+
+.mouse_controls > h3 {
+  margin: 0px 0px 30px 0px;
+}
+.icon {
+  max-width: 50px;
+}
+
+.about {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+a {
+  color: #333;
+}

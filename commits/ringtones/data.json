@@ -1,0 +1,43 @@
+{
+    "GHM-42X9": {
+      "name": "GHM-42X9",
+      "frequency_band": "900MHz",
+      "firmware_version": "1.04a",
+      "signal_strength_db": "-78dBm",
+      "battery_health": "85%",
+      "last_service_ping": "2025-03-15T12:03:22Z"
+    },
+    "PLT-77QZ": {
+      "name": "PLT-77QZ",
+      "frequency_band": "1800MHz",
+      "firmware_version": "2.12r",
+      "signal_strength_db": "-64dBm",
+      "battery_health": "93%",
+      "last_service_ping": "2025-04-03T09:17:48Z"
+    },
+    "NXE-11C5": {
+      "name": "NXE-11C5",
+      "frequency_band": "850MHz",
+      "firmware_version": "0.98b",
+      "signal_strength_db": "-90dBm",
+      "battery_health": "76%",
+      "last_service_ping": "2025-03-28T15:44:09Z"
+    },
+    "TRN-3M20": {
+      "name": "TRN-3M20",
+      "frequency_band": "1900MHz",
+      "firmware_version": "1.10e",
+      "signal_strength_db": "-82dBm",
+      "battery_health": "88%",
+      "last_service_ping": "2025-04-01T21:11:01Z"
+    },
+    "ZKJ-59H8": {
+      "name": "ZKJ-59H8",
+      "frequency_band": "1700MHz",
+      "firmware_version": "3.01z",
+      "signal_strength_db": "-70dBm",
+      "battery_health": "91%",
+      "last_service_ping": "2025-04-06T13:52:35Z"
+    }
+  }
+  

@@ -1,0 +1,80 @@
+{
+    "Barricade": {
+      "title": "Barricade",
+      "vehicle": "Ford Mustang Saleen Police Cruiser",
+      "affiliation": "Decepticon",
+      "function": "Scout / Enforcer",
+      "notable_trait": "Often accompanied by the mini-con Frenzy"
+    },
+    "Blackout": {
+      "title": "Blackout",
+      "vehicle": "MH-53 Pave Low Helicopter",
+      "affiliation": "Decepticon",
+      "function": "Aerial Assault / Transport",
+      "notable_trait": "Responsible for one of the first Decepticon attacks on Earth"
+    },
+    "Bonecrusher": {
+      "title": "Bonecrusher",
+      "vehicle": "Buffalo Mine-Protected Vehicle",
+      "affiliation": "Decepticon",
+      "function": "Demolitions",
+      "notable_trait": "Known for his hatred of everything"
+    },
+    "Bumblebee": {
+      "title": "Bumblebee",
+      "vehicle": "Chevrolet Camaro (various models)",
+      "affiliation": "Autobot",
+      "function": "Scout / Guardian",
+      "notable_trait": "Lost his voice box, communicates through radio clips"
+    },
+    "Frenzy": {
+      "title": "Frenzy",
+      "vehicle": "None (transforms into electronic devices)",
+      "affiliation": "Decepticon",
+      "function": "Spy / Hacker",
+      "notable_trait": "Infiltrates systems by transforming into a stereo or cellphone"
+    },
+    "Ironhide": {
+      "title": "Ironhide",
+      "vehicle": "GMC TopKick C4500 Pickup Truck",
+      "affiliation": "Autobot",
+      "function": "Weapons Specialist",
+      "notable_trait": "Wields heavy artillery and has a no-nonsense attitude"
+    },
+    "Jazz": {
+      "title": "Jazz",
+      "vehicle": "Pontiac Solstice",
+      "affiliation": "Autobot",
+      "function": "Special Operations / Lieutenant",
+      "notable_trait": "Loves Earth culture and speaks with a cool demeanor"
+    },
+    "Megatron": {
+      "title": "Megatron",
+      "vehicle": "Cybertronian Jet / Tank (varies by version)",
+      "affiliation": "Decepticon",
+      "function": "Leader",
+      "notable_trait": "Founder and ruthless leader of the Decepticons"
+    },
+    "Optimus Prime": {
+      "title": "Optimus Prime",
+      "vehicle": "Peterbilt 379 Semi-Truck",
+      "affiliation": "Autobot",
+      "function": "Leader",
+      "notable_trait": "Carries the Matrix of Leadership and believes in freedom for all"
+    },
+    "Ratchet": {
+      "title": "Ratchet",
+      "vehicle": "Hummer H2 Search and Rescue Vehicle",
+      "affiliation": "Autobot",
+      "function": "Medic",
+      "notable_trait": "Serves as the Autobot field medic and engineer"
+    },
+    "Starscream": {
+      "title": "Starscream",
+      "vehicle": "F-22 Raptor Jet",
+      "affiliation": "Decepticon",
+      "function": "Air Commander",
+      "notable_trait": "Ambitious and treacherous, always seeking to replace Megatron"
+    }
+  }
+  
