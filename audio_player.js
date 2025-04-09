@@ -21,7 +21,7 @@ $(document).ready(function() {
     let audioList = $("<div class='file_list'></div>");
     for(file in audio) {
         var file = audio[file];
-        let linkElem = $(`<div class='list_item' path='audio/${file.title}.mp3'>${trim_ext(file.title)}</div>`);
+        let linkElem = $(`<div class='list_item' path='audio/${file.name}.mp3'>${trim_ext(file.name)}</div>`);
         audioList.append(linkElem);
         linkElem.on('click', function() {
             var source = $(this).attr("path");

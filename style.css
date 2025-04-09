@@ -9,13 +9,14 @@
 
 
 @font-face {
-  font-family: 'MAVERICK';
-  src: url('fonts/MAVERICKMEDIUM.woff2') format('woff2'),
-      url('fonts/MAVERICKMEDIUM.woff') format('woff');
-  font-weight: 500;
+  font-family: 'Bloody Gothic Empire';
+  src: url('fonts/BloodyGothicEmpire.woff2') format('woff2'),
+      url('fonts/BloodyGothicEmpire.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
 
 body {
   font-family: "Source Code Pro", sans-serif;
@@ -34,9 +35,9 @@ header {
 }
 
 h2 {
-  font-family: "MAVERICK";
+  font-family: "Bloody Gothic Empire";
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 3.2rem;
 }
 
 
