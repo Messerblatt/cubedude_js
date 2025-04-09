@@ -9,24 +9,29 @@
 
 
 @font-face {
-  font-family: 'Bloody Gothic Empire';
-  src: url('fonts/BloodyGothicEmpire.woff2') format('woff2'),
-      url('fonts/BloodyGothicEmpire.woff') format('woff');
+  font-family: 'PIXELYA';
+  src: url('fonts/PIXELYATrial-Regular.woff2') format('woff2'),
+      url('fonts/PIXELYATrial-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 
+
+* {
+  --primary: aqua;
+  --secondary: white
+}
 body {
   font-family: "Source Code Pro", sans-serif;
-  background-color: yellow;
+  background-color: var(--primary);
   color: #ddd;
 }
 
 
 header {
-  color: yellow;
+  color: aqua;
   font-family: "Divine", sans-serif;
   margin-left: 100px;
   height: 100px;
@@ -35,7 +40,7 @@ header {
 }
 
 h2 {
-  font-family: "Bloody Gothic Empire";
+  font-family: "PIXELYA";
   text-align: center;
   font-size: 3.2rem;
 }
@@ -57,9 +62,9 @@ h2 {
   margin: 20px auto;
   width: 300px;
   border-radius: 20px;
-  color: yellow;
-  border-left: 1px solid yellow;
-  border-right: 1px solid yellow;
+  color: aqua;
+  border-left: 1px solid var(--primary);
+  border-right: 1px solid var(--primary);
 
 }
 
@@ -71,7 +76,7 @@ h2 {
 }
 
 .list_item:hover {
-    background-color: white;
+    background-color: var(--primary);
     color: #333;
 }
 
@@ -91,7 +96,7 @@ audio {
   bottom: 200px;
   right: 200px;
   background-color: transparent;
-  color: #333;
+  color: var(--secondary);
   width: 800px;
 }
  
@@ -104,7 +109,7 @@ audio {
   z-index: -1;
   top: -10px;
   left: -10px;
-  background-color: #333;
+  background-color: white;
   min-height: 102vh;
   width: 50vw;
 }
@@ -122,9 +127,9 @@ audio {
   filter: opacity(0.85);
   font-size: 0.7rem;
   border-radius: 10px;
-  color: #333;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
+  color: black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .mouse_controls * {
@@ -143,9 +148,9 @@ audio {
   bottom: 50px;
   right: 50px;
   font-size: 0.8rem;
-  color: #333;
+  color: var(--secondary);
 }
 
 a {
-  color: #333;
+  color: var(--secondary);
 }
