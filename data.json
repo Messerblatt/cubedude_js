@@ -1,43 +1,130 @@
 {
-    "GHM-42X9": {
-      "name": "GHM-42X9",
-      "frequency_band": "900MHz",
-      "firmware_version": "1.04a",
-      "signal_strength_db": "-78dBm",
-      "battery_health": "85%",
-      "last_service_ping": "2025-03-15T12:03:22Z"
-    },
-    "PLT-77QZ": {
-      "name": "PLT-77QZ",
-      "frequency_band": "1800MHz",
-      "firmware_version": "2.12r",
-      "signal_strength_db": "-64dBm",
-      "battery_health": "93%",
-      "last_service_ping": "2025-04-03T09:17:48Z"
-    },
-    "NXE-11C5": {
-      "name": "NXE-11C5",
-      "frequency_band": "850MHz",
-      "firmware_version": "0.98b",
-      "signal_strength_db": "-90dBm",
-      "battery_health": "76%",
-      "last_service_ping": "2025-03-28T15:44:09Z"
-    },
-    "TRN-3M20": {
-      "name": "TRN-3M20",
-      "frequency_band": "1900MHz",
-      "firmware_version": "1.10e",
-      "signal_strength_db": "-82dBm",
-      "battery_health": "88%",
-      "last_service_ping": "2025-04-01T21:11:01Z"
-    },
-    "ZKJ-59H8": {
-      "name": "ZKJ-59H8",
-      "frequency_band": "1700MHz",
-      "firmware_version": "3.01z",
-      "signal_strength_db": "-70dBm",
-      "battery_health": "91%",
-      "last_service_ping": "2025-04-06T13:52:35Z"
-    }
+  "Agent Smith": {
+    "name": "Agent Smith",
+    "Appeared in:": "The Matrix trilogy",
+    "evil plan": "To eliminate all humans and enforce the dominance of machines within the Matrix",
+    "Trait": "Relentless, calculating, emotionless",
+    "Enemys": "Neo",
+    "Foes": "The Resistance"
+  },
+  "Captain Barbossa and the Skeletons": {
+    "name": "Captain Barbossa and the Skeletons",
+    "Appeared in:": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "evil plan": "To lift the Aztec curse by returning all the stolen gold",
+    "Trait": "Cunning, undead, treacherous",
+    "Enemys": "Captain Jack Sparrow",
+    "Foes": "Will Turner, Elizabeth Swann"
+  },
+  "Barney Stinson": {
+    "name": "Barney Stinson",
+    "Appeared in:": "How I Met Your Mother",
+    "evil plan": "To seduce every woman in New York City",
+    "Trait": "Charismatic, manipulative, extravagant",
+    "Enemys": "Commitment",
+    "Foes": "Relationship stability"
+  },
+  "Chucky": {
+    "name": "Chucky",
+    "Appeared in:": "Child's Play film series",
+    "evil plan": "To possess a human body through voodoo rituals",
+    "Trait": "Sadistic, murderous, deceptive",
+    "Enemys": "Andy Barclay",
+    "Foes": "Law enforcement, parents"
+  },
+  "The Dark Emperor": {
+    "name": "The Dark Emperor",
+    "Appeared in:": "Generic villain role, fantasy trope (placeholder)",
+    "evil plan": "To dominate all realms through dark magic",
+    "Trait": "Mysterious, powerful, ruthless",
+    "Enemys": "The Chosen One",
+    "Foes": "Rebels, magical guardians"
+  },
+  "General Grievous": {
+    "name": "General Grievous",
+    "Appeared in:": "Star Wars: Revenge of the Sith, Clone Wars",
+    "evil plan": "To lead the droid army and destroy the Jedi Order",
+    "Trait": "Cybernetic, warlord, lightsaber collector",
+    "Enemys": "Obi-Wan Kenobi",
+    "Foes": "The Jedi, Galactic Republic"
+  },
+  "Joker": {
+    "name": "Joker",
+    "Appeared in:": "Batman (DC Comics, movies, TV series)",
+    "evil plan": "To spread chaos and break Batman’s moral code",
+    "Trait": "Insane, theatrical, unpredictable",
+    "Enemys": "Batman",
+    "Foes": "Gotham City, Justice League"
+  },
+  "Megatron": {
+    "name": "Megatron",
+    "Appeared in:": "Transformers franchise",
+    "evil plan": "To conquer Cybertron and eliminate the Autobots",
+    "Trait": "Power-hungry, commanding, brutal",
+    "Enemys": "Optimus Prime",
+    "Foes": "The Autobots, humans"
+  },
+  "Mojo Jojo": {
+    "name": "Mojo Jojo",
+    "Appeared in:": "The Powerpuff Girls",
+    "evil plan": "To take over Townsville and defeat the Powerpuff Girls",
+    "Trait": "Evil genius, verbose, monkey mutant",
+    "Enemys": "The Powerpuff Girls",
+    "Foes": "Professor Utonium, Townsville"
+  },
+  "Patrick Star": {
+    "name": "Patrick Star",
+    "Appeared in:": "SpongeBob SquarePants",
+    "evil plan": "Unintentionally causes chaos through ignorance",
+    "Trait": "Lovably dumb, clumsy",
+    "Enemys": "Logic",
+    "Foes": "Common sense"
+  },
+  "Peter Griffin": {
+    "name": "Peter Griffin",
+    "Appeared in:": "Family Guy",
+    "evil plan": "Random schemes that often ruin lives (mostly his own)",
+    "Trait": "Impulsive, ignorant, obnoxious",
+    "Enemys": "The Giant Chicken",
+    "Foes": "Common decency"
+  },
+  "Plancton": {
+    "name": "Plancton",
+    "Appeared in:": "SpongeBob SquarePants",
+    "evil plan": "To steal the Krabby Patty secret formula",
+    "Trait": "Tiny, scheming, loud",
+    "Enemys": "Mr. Krabs",
+    "Foes": "The Krusty Krab, SpongeBob"
+  },
+  "Principle Skinner": {
+    "name": "Principle Skinner",
+    "Appeared in:": "The Simpsons",
+    "evil plan": "Trying to control unruly children, especially Bart",
+    "Trait": "Repressed, awkward, strict",
+    "Enemys": "Bart Simpson",
+    "Foes": "Public school chaos"
+  },
+  "Timmys Dad (Cosmo and Wanda)": {
+    "name": "Timmys Dad (Cosmo and Wanda)",
+    "Appeared in:": "The Fairly OddParents",
+    "evil plan": "Unintentionally neglects and endangers Timmy",
+    "Trait": "Oblivious, ridiculous, loud",
+    "Enemys": "Dinkleberg",
+    "Foes": "Logic, parenting skills"
+  },
+  "Vicky (Cosmo and Wanda)": {
+    "name": "Vicky (Cosmo and Wanda)",
+    "Appeared in:": "The Fairly OddParents",
+    "evil plan": "To torment and exploit children she babysits",
+    "Trait": "Mean, manipulative, greedy",
+    "Enemys": "Timmy Turner",
+    "Foes": "Fairy Godparents"
+  },
+  "Tom (Tom and Jerry)": {
+    "name": "Tom (Tom and Jerry)",
+    "Appeared in:": "Tom and Jerry",
+    "evil plan": "To catch and torment Jerry the mouse",
+    "Trait": "Persistent, crafty, unlucky",
+    "Enemys": "Jerry",
+    "Foes": "Household pets, traps, reality"
   }
-  
+}
