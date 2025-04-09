@@ -7,31 +7,22 @@
   font-display: swap;
 }
 
-
 @font-face {
-  font-family: 'Bloody Gothic';
-  src: url('fonts/BloodyGothicEmpire.woff2') format('woff2'),
-      url('fonts/BloodyGothicEmpire.woff') format('woff');
+  font-family: 'Stockingcute';
+  src: url('fonts/StockingcuteRegular.woff2') format('woff2'),
+      url('fonts/StockingcuteRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-
-
-* {
-  --primary: #111;
-  --secondary: red;
-}
 body {
   font-family: "Source Code Pro", sans-serif;
-  background-color: var(--secondary);
-  color: #ddd;
 }
 
 
 header {
-  color: var(--secondary);
+  color: white;
   font-family: "Divine", sans-serif;
   margin-left: 100px;
   height: 100px;
@@ -40,9 +31,9 @@ header {
 }
 
 h2 {
-  font-family: "Bloody Gothic";
+  font-family: "Stockingcute";
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 1.2rem;
 }
 
 
@@ -62,9 +53,9 @@ h2 {
   margin: 20px auto;
   width: 300px;
   border-radius: 20px;
-  color: var(--secondary);
-  border-left: 1px solid var(--secondary);
-  border-right: 1px solid var(--secondary);
+  color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 
 }
 
@@ -76,8 +67,8 @@ h2 {
 }
 
 .list_item:hover {
-    background-color: var(--secondary);
-    color: var(--primary);
+    background-color: white;
+    color: #333;
 }
 
 audio {
@@ -95,11 +86,11 @@ audio {
   position: fixed;
   bottom: 200px;
   right: 200px;
-  background-color: transparent;
-  color: var(--secondary);
+  background-color: white;
+  color: red;
   width: 800px;
 }
- 
+
 .metadata tr td {
   min-width: 300px;
 }
@@ -109,7 +100,7 @@ audio {
   z-index: -1;
   top: -10px;
   left: -10px;
-  background-color: var(--primary);
+  background-color: red;
   min-height: 102vh;
   width: 50vw;
 }
@@ -122,13 +113,11 @@ audio {
 .mouse_controls {
   text-align: center;
   position: fixed;
-  
-  top: 50px;
   right: 50px;
+  top: 50px;
   filter: opacity(0.85);
   font-size: 0.7rem;
   border-radius: 10px;
-  color: black;
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
@@ -149,41 +138,8 @@ audio {
   bottom: 50px;
   right: 50px;
   font-size: 0.8rem;
-  color: var(--primary);
 }
 
 a {
-  color: var(--primary);
-}
-
-.commit_table {
-  position: fixed;
-  top: 50vh;
-  transform: translate(0%, -50%);
-  right: 50px;
-  display: flex;
-  flex-direction: column;
-  color: #111;
-  
-}
-
-td.status-indicator {
-  position: relative;
-
-  padding-left: 2rem;
-  font-weight: bold;
-  color: #2ecc71; /* green text (optional) */
-}
-
-td.status-indicator::before {
-  content: "";
-  position: absolute;
-  left: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 12px;
-  height: 12px;
-  background-color: #2ecc71; /* green light */
-  border-radius: 50%;
-  box-shadow: 0 0 6px 2px #2ecc71;
+  color: red;
 }
