@@ -96,7 +96,7 @@ audio {
   bottom: 200px;
   right: 200px;
   background-color: transparent;
-  color: var(--secondary);
+  color: var(--primary);
   width: 800px;
 }
  

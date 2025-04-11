@@ -11,17 +11,20 @@ function formatTime(seconds) {
     return `${m}:${s < 10 ? '0' : ''}${s}`;
 }
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 // Trim file extensions like ".mp3"
 function trim_ext(filename) {
     return filename.replace(/\.[^/.]+$/, "");
 }
 
-$(document).ready(function() {
-    let audioList = $("<div class='file_list'></div>");
+$(document).ready(async function() {
+    let audioList = $("<div></div>");
+    await sleep(1000);
     for(file in audio) {
+        console.log(file);
         var file = audio[file];
-        let linkElem = $(`<div class='list_item' path='audio/${file.title}.mp3'>${trim_ext(file.title)}</div>`);
+        let linkElem = $(`<div class='list_item' path='audio/${file.name}.mp3'>${trim_ext(file.name)}</div>`);
         audioList.append(linkElem);
         linkElem.on('click', function() {
             var source = $(this).attr("path");
@@ -30,7 +33,10 @@ $(document).ready(function() {
             get_metadata(file);
         });
     };
-    $("body").append(audioList);
+    $("#dropzone").html("");
+    $("#dropzone").removeClass("loading")
+    $("#dropzone").addClass("file_list")
+    $("#dropzone").append(audioList);
 })
 
 function get_metadata(file) {

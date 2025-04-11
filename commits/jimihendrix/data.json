@@ -1,7 +1,7 @@
 {
     "All Along The Watchtower": {
         "album": "The Best Of Jimi Hendrix",
-        "title": "All Along The Watchtower",
+        "name": "All Along The Watchtower",
         "artist": "Jimi Hendrix",
         "originaldate": "1992",
         "musicbrainz_trackid": "44f896ea-fba6-4471-b85b-1f3206893c7d",
@@ -11,7 +11,7 @@
     },
     "Bold as Love": {
         "album": "Axis: Bold as Love",
-        "title": "Bold as Love",
+        "name": "Bold as Love",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2006",
         "musicbrainz_trackid": "15cd08d1-b665-4fd4-b05e-841a32caa765",
@@ -21,7 +21,7 @@
     },
     "Burning of the Midnight Lamp": {
         "album": "ACT: 10 Magic Years",
-        "title": "Burning of the Midnight Lamp",
+        "name": "Burning of the Midnight Lamp",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2002-10-14",
         "musicbrainz_trackid": "7406ce0c-183a-43e4-9267-02b1a8be79c7",
@@ -31,12 +31,12 @@
     },
     "Castles Made Of Sand": {
         "album": "Music",
-        "title": "Castles Made Of Sand",
+        "name": "Castles Made Of Sand",
         "artist": "The Jimi Hendrix Experience"
     },
     "Crosstown Traffic": {
         "album": "Experience Hendrix: The Best of Jimi Hendrix",
-        "title": "Crosstown Traffic",
+        "name": "Crosstown Traffic",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "1997-09-16",
         "musicbrainz_trackid": "c55b2151-ef21-4b45-8881-3be916abd106",
@@ -46,7 +46,7 @@
     },
     "Dolly Dagger": {
         "album": "Rainbow Bridge",
-        "title": "Dolly Dagger",
+        "name": "Dolly Dagger",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "1971-10",
         "musicbrainz_trackid": "e8f76f96-2f5f-49fd-a6ef-50e42c466ea1",
@@ -56,7 +56,7 @@
     },
     "Gloria (Live)": {
         "album": "Experience Hendrix: The Best of Jimi Hendrix",
-        "title": "Gloria (Live)",
+        "name": "Gloria (Live)",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "1997-09-16",
         "musicbrainz_trackid": "8d3b82a2-ff36-4964-b9c1-c3e85e3e8f96",
@@ -66,7 +66,7 @@
     },
     "Gypsy Eyes": {
         "album": "The Best Of Jimi Hendrix",
-        "title": "Gypsy Eyes",
+        "name": "Gypsy Eyes",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "1992",
         "musicbrainz_trackid": "073ccb86-8594-463a-af18-7517a7c239dc",
@@ -75,16 +75,16 @@
         "musicbrainz_albumartistid": "06fb1c8b-566e-4cb2-985b-b467c90781d4"
     },
     "Happy Birthday": {
-        "title": "Happy Birthday",
+        "name": "Happy Birthday",
         "artist": "The Jimi Hendrix Experience"
     },
     "Hear My Train A Comin": {
-        "title": "Hear My Train A Comin",
+        "name": "Hear My Train A Comin",
         "artist": "The Jimi Hendrix Experience"
     },
     "House Burning Down": {
         "album": "The Best Of Jimi Hendrix",
-        "title": "House Burning Down",
+        "name": "House Burning Down",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "1992",
         "musicbrainz_trackid": "a1da41dc-7884-4183-a71a-020a0b08218b",
@@ -94,7 +94,7 @@
     },
     "Hush Now": {
         "album": "20th Century Music Collection",
-        "title": "Hush Now",
+        "name": "Hush Now",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "1999",
         "musicbrainz_trackid": "74f4b5c5-03ae-4bfb-80b4-432ec07da4ed",
@@ -104,12 +104,12 @@
     },
     "Mannish Boy": {
         "album": "Music",
-        "title": "Mannish Boy",
+        "name": "Mannish Boy",
         "artist": "Jimi Hendrix"
     },
     "Message From Nine to the Universe": {
         "album": "Flyer",
-        "title": "Message From Nine to the Universe",
+        "name": "Message From Nine to the Universe",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2012",
         "musicbrainz_trackid": "da892ad8-fa3f-4447-81c1-0055dad1096a",
@@ -118,16 +118,16 @@
         "musicbrainz_albumartistid": "06fb1c8b-566e-4cb2-985b-b467c90781d4"
     },
     "Purple Haze (Woodstock 69)": {
-        "title": "Purple Haze (Woodstock 69)",
+        "name": "Purple Haze (Woodstock 69)",
         "artist": "The Jimi Hendrix Experience"
     },
     "Somewhere": {
-        "title": "Somewhere",
+        "name": "Somewhere",
         "artist": "The Jimi Hendrix Experience"
     },
     "Spanish Castle Magic": {
         "album": "Live! On the Radio",
-        "title": "Spanish Castle Magic",
+        "name": "Spanish Castle Magic",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2007-11-07",
         "musicbrainz_trackid": "a4649138-a133-4bb6-95c9-7777d2114bb8",
@@ -137,7 +137,7 @@
     },
     "Still Raining Still Dreaming": {
         "album": "The Best Of Jimi Hendrix",
-        "title": "Still Raining Still Dreaming",
+        "name": "Still Raining Still Dreaming",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "1992",
         "musicbrainz_trackid": "c242121f-ec71-465e-916e-156e5e6b6ed9",
@@ -146,12 +146,12 @@
         "musicbrainz_albumartistid": "06fb1c8b-566e-4cb2-985b-b467c90781d4"
     },
     "Stone Free (Live at Filmore East)": {
-        "title": "Stone Free (Live at Filmore East)",
+        "name": "Stone Free (Live at Filmore East)",
         "artist": "The Jimi Hendrix Experience"
     },
     "The Wind Cries Mary": {
         "album": "Love Songs Forever",
-        "title": "The Wind Cries Mary",
+        "name": "The Wind Cries Mary",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2000",
         "musicbrainz_trackid": "7e8e7d62-3e8b-4d3e-9ab5-882b60d680f2",
@@ -161,7 +161,7 @@
     },
     "Voodoo Child": {
         "album": "Tactical Evolution",
-        "title": "Voodoo Child",
+        "name": "Voodoo Child",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2009-10-09",
         "musicbrainz_trackid": "22e53ad1-ebe6-4b84-b6d1-bc57aeca65be",
@@ -171,7 +171,7 @@
     },
     "Wait Until Tomorrow": {
         "album": "Axis: Bolder Than Love",
-        "title": "Wait Until Tomorrow",
+        "name": "Wait Until Tomorrow",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2005",
         "musicbrainz_trackid": "de5b84c7-4da7-4f34-8609-433d0596638e",
@@ -180,12 +180,12 @@
         "musicbrainz_albumartistid": "06fb1c8b-566e-4cb2-985b-b467c90781d4"
     },
     "Who Knows": {
-        "title": "Who Knows",
+        "name": "Who Knows",
         "artist": "Band of Gypsys"
     },
     "You Got Me Floating": {
         "album": "Axis: Bolder Than Love",
-        "title": "You Got Me Floating",
+        "name": "You Got Me Floating",
         "artist": "The Jimi Hendrix Experience",
         "originaldate": "2005",
         "musicbrainz_trackid": "6ec9b676-15dd-4f42-902d-d675f9e94b91",
